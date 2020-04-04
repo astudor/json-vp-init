@@ -1,0 +1,45 @@
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* reset few things */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.shadow-0 {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+.shadow-1 {
+  box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.App {
+  min-height: 100vh;
+}
+#app-main {
+  flex: 1;
+}
